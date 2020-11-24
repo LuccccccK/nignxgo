@@ -1,0 +1,5 @@
+INFO  2020/11/24 04:45:41  revel  revel.go:124: Paths                                   base=/go/app app=/go/app/app views=/go/app/app/views   revel=/go/pkg/mod/github.com/revel/revel@v1.0.0
+INFO  2020/11/24 05:08:08  revel  revel.go:124: Paths                                   base=/go/app app=/go/app/app views=/go/app/app/views   revel=/go/pkg/mod/github.com/revel/revel@v1.0.0
+INFO  2020/11/24 05:09:18  revel  revel.go:124: Paths                                    revel=/go/pkg/mod/github.com/revel/revel@v1.0.0 base=/go/app app=/go/app/app views=/go/app/app/views 
+INFO  2020/11/24 05:31:15  revel  revel.go:124: Paths                                   revel=/go/pkg/mod/github.com/revel/revel@v1.0.0 base=/go/app app=/go/app/app views=/go/app/app/views  
+INFO  2020/11/24 05:31:24  revel  revel.go:124: Paths                                   base=/go/app app=/go/app/app views=/go/app/app/views   revel=/go/pkg/mod/github.com/revel/revel@v1.0.0

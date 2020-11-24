@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  golang:
+    tty: true
+    build: "."
+    volumes:
+      - ./app:/go/app
+    ports:
+      - "9000" # revelは初期ポートが9000っぽいので、とりあえず従った
+    command: bash -c "cd app && revel run app" # revel run xxx で xxx は revel new したときの名称っぽい、app.confで変更できるか不明
+  nginx:
+    build: ./nginx
+    ports:
+      - "8000:80"
+    depends_on:
+      - "golang" # 上のsevicesで設定した名称に合わせる形
